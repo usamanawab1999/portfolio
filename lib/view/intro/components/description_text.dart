@@ -32,7 +32,7 @@ class AnimatedDescriptionText extends StatelessWidget {
         } else if (Responsive.isMobile(context)) {
           // Mobile
           text =
-              'I am a passionate Flutter developer with over\n3 years of experience in building smooth, \nscalable, and responsive mobile apps. My \nexpertise includes working with Firebase, REST \nAPIs, state management (Provider, Bloc,GetX),\nand crafting beautiful UIs. I focus on clean code,\nperformance optimization, and delivering apps \nthat offer a seamless user experience from \nstart to finish.';
+              'I am a passionate Flutter developer with over\n3 years of experience in building smooth, \nscalable, and responsive mobile apps. My \nexpertise includes working with Firebase, REST \nAPIs, state management (Provider, Bloc, GetX),\nand crafting beautiful UIs. I focus on clean code,\nperformance optimization, and delivering apps \nthat offer a seamless user experience from \nstart to finish.';
         } else {
           text = '';
         }
