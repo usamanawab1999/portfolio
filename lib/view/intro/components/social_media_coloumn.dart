@@ -9,11 +9,24 @@ class SocialMediaIconColumn extends StatelessWidget {
   Widget build(BuildContext context) {
     return Column(
       children: [
-        SocialMediaIcon(icon: 'assets/icons/linkedin.svg',onTap: ()=>launchUrl(Uri.parse('https://www.linkedin.com/in/hamad-anwar/'))),
-        SocialMediaIcon(icon: 'assets/icons/github.svg',onTap: () => launchUrl(Uri.parse('https://github.com/Hamad-Anwar')),),
-        const SocialMediaIcon(icon: 'assets/icons/dribble.svg',),
-        const SocialMediaIcon(icon: 'assets/icons/twitter.svg'),
-        const SocialMediaIcon(icon: 'assets/icons/linkedin.svg'),
+        SocialMediaIcon(
+          icon: 'assets/icons/linkedin.svg',
+          onTap:
+              () => launchUrl(
+                Uri.parse(
+                  'https://pk.linkedin.com/in/usama-nawab-18a68b186?trk=people-guest_people_search-card',
+                ),
+              ),
+        ),
+
+        SocialMediaIcon(
+          icon: 'assets/icons/github.svg',
+          onTap:
+              () => launchUrl(Uri.parse('https://github.com/usamanawab1999/')),
+        ),
+        // const SocialMediaIcon(icon: 'assets/icons/dribble.svg',),
+        // const SocialMediaIcon(icon: 'assets/icons/twitter.svg'),
+        // const SocialMediaIcon(icon: 'assets/icons/linkedin.svg'),
       ],
     );
   }
